@@ -1,0 +1,990 @@
+/* This is an HTML template. This is a premium template. 
+    Noushed Ahomed Jholok has developed its front end. 
+    My personal website is https://najholok.com .
+     And our business site is https://glimpsecode.com */
+
+/* =========================================================
+============ Home Page One Css Here======================
+========================================================= */
+
+/* HEADER SECTION START HERE */
+#header{
+    width: 100%;
+    background-color: #16171D;
+    padding: 20px 0px;
+}
+#header .nav-link{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A7AEBF;
+    transition: all .3s linear;
+}
+#header .nav-link:hover{
+    color: #F5C249;
+}
+.main_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_menu .container .navbar-brand {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 56px;
+}
+.main-menu .menu-section{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/* LOGIN SECTION START HERE  */
+#login-section{
+    display: flex;
+    align-items: center;
+}
+#login-section a{
+    font-size:14px;
+    margin: 0px 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#login-section .button{
+    font-size:14px;
+    padding: 8px 8px;
+    background-color: rgb(230, 204, 63);
+    color: black;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+/* FLAG DROPDOWN MENU START HERE  */
+#country {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2px;
+}
+#login-section .lang-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+#login-section .lang-menu ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+#login-section .lang-menu ul li{
+    position: relative;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+#login-section .lang-menu ul li:hover i{
+    transform: rotate(180deg);
+}
+#login-section .lang-menu ul li ul{
+    position: absolute;
+    flex-direction: column;
+    right: 0;
+    top: 100%;
+    width: 40px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#login-section .lang-menu ul li:hover ul{
+    display: flex;
+}
+#login-section .lang-menu ul li ul li {
+	background: black;
+	padding: 3px 0px;
+	width: 38px;
+}
+#login-section i {
+	font-size: 20px;
+	margin-left: 16px;
+	color: #fff;
+    cursor: pointer;
+}
+#login-section .lang-menu ul li a img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0px 2px;
+}
+#login-section .lang-menu ul li i{
+    font-size: 14px;
+    color: white;
+}
+/* COUNTRY DROPDOWN MENU START HERE  */
+#login-section .country-menu ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	padding-left: 10px;
+}
+#login-section .country-menu ul li{
+    position: relative;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+#login-section .country-menu ul li:hover i{
+    transform: rotate(180deg);
+}
+#login-section .country-menu ul li ul{
+    position: absolute;
+    flex-direction: column;
+    right: 0;
+    top: 100%;
+    width: 40px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#login-section .country-menu ul li:hover ul{
+    display: flex;
+}
+#login-section .country-menu ul li ul li {
+	background: black;
+	padding: 3px 0px;
+	width: 85px;
+}
+
+#login-section .country-menu ul li a img {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: 8px;
+}
+
+#login-section .country-menu ul li i{
+    font-size: 14px;
+    color: white;
+}
+/* ---------- banner area css here ---------- */
+#banner_area{
+    background-color: #16171D;
+    height: 100vh;
+    position: relative;
+}
+.banner_content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.banner_content h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.banner_content p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787A8D;
+    margin-bottom: 56px;
+}
+.banner_content a{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #16171D;
+background: #F5C249;
+border-radius: 12px;
+padding: 16px 49.5px;
+text-decoration: none;
+}
+.banner_img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    left: 55%;
+}
+.banner_img img{
+    width: 100%;
+}
+/* ---------- service Area Css Here ---------- */
+#service_area{
+    background-color: #16171D;
+    padding: 80px 0px;
+}
+.service_card{
+    padding: 40px 32px;
+    border: 1px solid #fff;
+    border-radius: 24px;
+}
+.service_card h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+.service_card p {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #787A8D;
+	margin-top: 16px;
+	padding: 0px 20px;
+}
+/* ---------- treding area css here ---------- */
+#treding_area{
+    background-color: #16171D;
+    padding: 80px 0px;
+    position: relative;
+}
+.trading_content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.trading_content h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.trading_content p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787A8D;
+}
+.trading_content img{
+   margin-top: 56px;
+   margin-right: 24px;
+}
+/* --------- market trend area --------- */
+#market_trend_area{
+    background-color: #16171D;
+    padding: 80px 0px;
+}
+#market_trend_area table tr th{
+    width: 20%;
+}
+.market_trend_title h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 56px;
+}
+.market_trend_search_box{
+    width: 352px;
+    position: relative;
+}
+.market_trend_search_box img{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+.market_trend_search_box input{
+    border-radius: 12px;
+    background-color: #21242D;
+    width: 100%;
+    height: 48px;
+    border-bottom: none;
+    border-right: none;
+}
+.market_trend_search_box input::placeholder{
+    color: #787A8D;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Poppins;
+    padding-left: 52px;
+}
+.market_trend_section_header{
+    margin-bottom: 40px;
+}
+.market_trend_section_header .market_trend_section_header_list{
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #A7AEBF;
+    text-align: center;
+    transition: all .3s linear;
+    border-radius: 12px;
+}
+.market_trend_section_header .market_trend_section_header_list:hover{
+    font-weight: 600;
+    color: #F5C249;
+    background-color: #21242D;
+}
+.market_trend_pagination{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.market_trend_pagination p{
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    color: #787A8D;
+    padding-top: 16px;
+    padding-right: 16px;
+}
+.market_trend_pagination select{
+    background-color: #21242D;
+    width: 72px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    padding: 4px 0;
+}
+.market_trend_list_header .table_header{
+    border-bottom: 2px solid #21242D;
+}
+.market_trend_list_header th{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #787A8D;
+    padding-bottom: 16px;
+}.td_fast_img {
+    padding-top: 20px;
+}
+.td_fast_img img{
+    width: 48px;
+    height: 48px;
+}
+.currency_name{
+    margin-left: 20px;
+}
+.currency_name h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.currency_name p {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	color: #787A8D;
+	margin-top: -10px;
+}
+.tr_to_tr_grep {
+    height: 78px;
+    border-bottom: 2px solid #21242D;
+}
+.tr_to_tr_grep span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.tr_to_tr_grep .fa-caret-up{
+    color: #00C566;
+    margin-right: 5px;
+}
+.tr_to_tr_grep .span2 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #00C566;
+}
+.tr_to_tr_grep .fa-caret-down{
+    color: #FF403B;
+    margin-right: 5px;
+}
+.tr_to_tr_grep .down_tren {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FF403B;
+}
+#market_trend_area .view-more-btn{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 2px solid #787A8D;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 16px 51.5px;
+    text-decoration: none;
+}
+.pagination ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.pagination ul li{
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    
+}
+.page-number a {
+    line-height: 48px;
+    font-size: 20px;
+    color: #A7AEBF;
+    font-family: Poppins;
+    text-decoration: none;
+}
+.page-arrow i{
+    line-height: 48px;
+    font-size: 20px;
+    color: #A7AEBF;
+}
+.page-number-active{
+    background-color: #F5C249;
+}
+.page-number-active a{
+    color: #16171D;
+}
+/* ---------- News Area css Here --------- */
+#news_area{
+    background-color: #16171D;
+    padding: 80px 0px;
+}
+.news_title h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.news_card{
+    background: #21242D;
+    border-radius: 24px;
+    padding: 28px 24px;
+    margin-top: 32px;
+}
+.blank_div{
+    width: 160px;
+    height: 160px !important;
+    background: #C4C4C4;
+    border-radius: 16px;
+    margin-right: 20px;
+}
+.news_card_content h4 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 32px;
+	color: #FFFFFF;
+	/* margin-bottom: 0px; */
+}
+.news_card_content p {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #787A8D;
+	/* margin-bottom: 0px; */
+}
+.news_card_content_2 a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5C249;
+    margin-right: 10px;
+}
+.news_card_content_2 span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #787A8D;
+    margin-right: 10px;
+}
+.all_link_button a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 2px solid #787A8D;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 16px 51.5px;
+    text-decoration: none;
+}
+/* ---------- app area css here ---------- */
+#app_area{
+    background-color: #16171D;
+    padding: 80px 0px;
+    position: relative;
+}
+.app_content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.app_content h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.app_content img{
+   margin-top: 56px;
+   margin-right: 24px;
+}
+.app_content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.app_content ul li{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787A8D;
+}
+.app_content ul li i{
+    width: 24px;
+    height: 24px;
+    color: #F5C249;
+}
+.app_content .download-button{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #16171D;
+    padding: 16px 40px;
+    display: inline-block;
+    background-color: #F5C249;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-top: 56px;
+}
+/* ---------- Subscribe Area Css Here ----------  */
+#subscribe_area{
+    background-color: #16171D;
+    padding-top: 116px;
+    padding-bottom: 80px;
+}
+.subscribe_area{
+    padding: 84px 0px;
+    background: #21242D;
+    position: relative;
+    height: 392px;
+}
+.subscribe_content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.subscribe_content h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.sub_form input{
+    background: #16171D;
+    border-radius: 12px;
+    border: none;
+    padding-left: 10px;
+    height: 56px;
+    width: 352px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787A8D;
+}
+.sub_form{
+    margin-top: 40px;
+}
+.sub_form button{
+    background: #F5C249;
+    border-radius: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+    color: #16171D;
+    padding: 16px 34.5px;
+    margin-left: 66.5px;
+}
+.subscribe_img img {
+	position: relative;
+	top: -200px;
+}
+/* ---------- footer Area Css Here ----------  */
+#footer_area{
+    background-color: #16171D;
+    padding-top: 48px;
+    border-top: 2px solid #21242D;
+}
+.footer_bottom_border{
+    padding-bottom: 64px;
+    border-bottom: 2px solid #21242D;
+}
+.footer_logo p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #787A8D;
+margin-top: 16px;
+}
+.footer_link_1 h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.footer_icons{
+    margin-top: 54px;
+}
+.footer_icons i {
+	margin-right: 24px;
+	font-size: 26px;
+    color: #787A8D;
+}
+.footer_link_1 ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.footer_link_1 ul li a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787A8D;
+    text-decoration: none;
+    margin-top: 16px;
+}
+.copyright p{
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #787A8D;
+}
+
+/* =========================================================
+============ Sign Up Page One Css Here======================
+========================================================= */
+#header_area_sign{
+    margin-top: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.sing_header_text span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.sing_header_text a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F5C249;
+    text-decoration: none;
+}
+.signup_area{
+    background: #21242D;
+    position: relative;
+    padding-top: 130px;
+}
+.cng_bg_color1{
+    position:absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #16171D;
+}
+.cng_bg_color {
+	padding-left: 96px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 85%;
+}
+.sign_up_banner_form h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 64px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.sign_up_banner_form form{
+    margin-top: 64px;
+}
+.sign_up_banner_form label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #787A8D;
+}
+.sign_up_banner_form input{
+    background: #21242D;
+    border-radius: 12px;
+    border: none;
+    height: 56px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787A8D;
+}
+.sign_up_banner_form span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A7AEBF;
+    margin-top: 10px;
+}
+.sign_up_banner_form p {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #787A8D;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.sign_up_banner_form a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F5C249;
+    text-decoration: none;
+}
+.sign_up_banner_form button{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #16171D;
+background: #F5C249;
+border-radius: 12px;
+padding: 16px;
+width: 100%;
+border: none;
+}
+.sign_up_banner_img img{
+    width: 100%;
+}
+.eya{
+    position: relative;
+}
+.chok {
+	position: absolute;
+	right: 15px;
+	top: 52%;
+	color: #787A8D;
+	transform: translateY(-50%);
+	font-size: 20px;
+    cursor: pointer;
+}
+/* =========================================================
+============ Sign Up verify Page One Css Here======================
+========================================================= */
+.four_input input{
+    width: 66px;
+    height: 66px;
+    border: 2px solid #F5C249;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 61px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px;
+}
+.reset_code{
+    margin-top: 48px;
+}
+/* =========================================================
+============ Media Query Css Here======================
+========================================================= */
+/* --------Only for small device  -----*/
+@media (max-width: 767.98px) { 
+    i.fa.fa-bars.navbar-toggler-icon {
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+    .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    }
+    .navbar-nav .nav-link {
+    text-align: center;
+    }
+    .banner_img {
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    left: 0;
+    }
+    .banner_content {
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    }
+    .banner_content h1 {
+    font-size: 38px;
+    }
+    .service_card {
+    margin-bottom: 12px;
+    }
+    .trading_content {
+    position: relative;
+    text-align: center;
+    }
+    #treding_area {
+    padding: 20px 0px;
+    }
+    .table_header th:nth-child(2){
+        display: none;
+    }
+    .table_header th:nth-child(3){
+        display: none;
+    }
+    .table_header th:nth-child(4){
+        display: none;
+    }
+    .table_header th:nth-child(5){
+        display: none;
+    }
+    .table_header th:nth-child(6){
+        display: none;
+    }
+    .tr_to_tr_grep td:nth-child(5){
+        display: none;
+    }
+    .tr_to_tr_grep td:nth-child(4){
+        display: none;
+    }
+    .pagination ul li {
+    width: 40px;
+    height: 40px;
+    }
+    #news_area {
+    padding: 40px 0px;
+    }
+    .app_content {
+    position: relative;
+    text-align: center;
+    }
+    .app_content h2 {
+    font-size: 28px;
+    line-height: 42px;
+    }
+    .subscribe_area {
+    padding: 84px 0px;
+    height: auto;
+    }
+    .subscribe_content {
+    position: relative;
+    top: 35%;
+    }
+    .subscribe_img img {
+    position: relative;
+    top: 0px;
+    }
+}
