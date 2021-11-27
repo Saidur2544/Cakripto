@@ -207,15 +207,15 @@
 }
 .banner_content a{
     font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-color: #16171D;
-background: #F5C249;
-border-radius: 12px;
-padding: 16px 49.5px;
-text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #16171D;
+    background: #F5C249;
+    border-radius: 12px;
+    padding: 16px 49.5px;
+    text-decoration: none;
 }
 .banner_img {
     position: absolute;
@@ -225,68 +225,7 @@ text-decoration: none;
     left: 55%;
 }
 .banner_img img{
-    width: 100%;
-}
-/* ---------- service Area Css Here ---------- */
-#service_area{
-    background-color: #16171D;
-    padding: 80px 0px;
-}
-.service_card{
-    padding: 40px 32px;
-    border: 1px solid #fff;
-    border-radius: 24px;
-}
-.service_card h3{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 32px;
-    color: #FFFFFF;
-    margin-top: 32px;
-}
-.service_card p {
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
-	color: #787A8D;
-	margin-top: 16px;
-	padding: 0px 20px;
-}
-/* ---------- treding area css here ---------- */
-#treding_area{
-    background-color: #16171D;
-    padding: 80px 0px;
-    position: relative;
-}
-.trading_content{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.trading_content h3{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 64px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-}
-.trading_content p{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #787A8D;
-}
-.trading_content img{
-   margin-top: 56px;
-   margin-right: 24px;
+    max-width: 100%;
 }
 /* --------- market trend area --------- */
 #market_trend_area{
@@ -306,9 +245,10 @@ text-decoration: none;
     color: #FFFFFF;
     margin-bottom: 56px;
 }
-.market_trend_search_box{
-    width: 352px;
-    position: relative;
+    /* new added css start */
+.market_trend_search_box {
+	max-width: 100%;
+	position: relative;
 }
 .market_trend_search_box img{
     position: absolute;
@@ -321,8 +261,22 @@ text-decoration: none;
     background-color: #21242D;
     width: 100%;
     height: 48px;
-    border-bottom: none;
-    border-right: none;
+    border: none;
+    outline: none;
+}
+.market_trend_search_box input::-webkit-input-placeholder{
+    color: #787A8D;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Poppins;
+    padding-left: 52px;
+}
+.market_trend_search_box input::-moz-placeholder{
+    color: #787A8D;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Poppins;
+    padding-left: 52px;
 }
 .market_trend_search_box input::placeholder{
     color: #787A8D;
@@ -331,6 +285,7 @@ text-decoration: none;
     font-family: Poppins;
     padding-left: 52px;
 }
+    /* new added css end */
 .market_trend_section_header{
     margin-bottom: 40px;
 }
@@ -374,6 +329,7 @@ text-decoration: none;
     color: #fff;
     padding: 4px 0;
 }
+    /* new added css end */
 .market_trend_list_header .table_header{
     border-bottom: 2px solid #21242D;
 }
@@ -415,6 +371,9 @@ text-decoration: none;
 .tr_to_tr_grep {
     height: 78px;
     border-bottom: 2px solid #21242D;
+}
+.tr_to_tr_grep img{
+    max-width: 100%;
 }
 .tr_to_tr_grep span{
     font-family: Poppins;
@@ -461,6 +420,7 @@ text-decoration: none;
     padding: 16px 51.5px;
     text-decoration: none;
 }
+    /* new added css start */
 .pagination ul{
     list-style: none;
     margin: 0;
@@ -491,82 +451,7 @@ text-decoration: none;
 .page-number-active a{
     color: #16171D;
 }
-/* ---------- News Area css Here --------- */
-#news_area{
-    background-color: #16171D;
-    padding: 80px 0px;
-}
-.news_title h3{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 64px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-}
-.news_card{
-    background: #21242D;
-    border-radius: 24px;
-    padding: 28px 24px;
-    margin-top: 32px;
-}
-.blank_div{
-    width: 160px;
-    height: 160px !important;
-    background: #C4C4C4;
-    border-radius: 16px;
-    margin-right: 20px;
-}
-.news_card_content h4 {
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 32px;
-	color: #FFFFFF;
-	/* margin-bottom: 0px; */
-}
-.news_card_content p {
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	line-height: 24px;
-	color: #787A8D;
-	/* margin-bottom: 0px; */
-}
-.news_card_content_2 a{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #F5C249;
-    margin-right: 10px;
-}
-.news_card_content_2 span{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    color: #787A8D;
-    margin-right: 10px;
-}
-.all_link_button a{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    color: #FFFFFF;
-    border: 2px solid #787A8D;
-    box-sizing: border-box;
-    border-radius: 12px;
-    padding: 16px 51.5px;
-    text-decoration: none;
-}
+    /* new added css end */
 /* ---------- app area css here ---------- */
 #app_area{
     background-color: #16171D;
@@ -618,65 +503,6 @@ text-decoration: none;
     border-radius: 12px;
     text-decoration: none;
     margin-top: 56px;
-}
-/* ---------- Subscribe Area Css Here ----------  */
-#subscribe_area{
-    background-color: #16171D;
-    padding-top: 116px;
-    padding-bottom: 80px;
-}
-.subscribe_area{
-    padding: 84px 0px;
-    background: #21242D;
-    position: relative;
-    height: 392px;
-}
-.subscribe_content{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.subscribe_content h3{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 64px;
-    color: #FFFFFF;
-}
-.sub_form input{
-    background: #16171D;
-    border-radius: 12px;
-    border: none;
-    padding-left: 10px;
-    height: 56px;
-    width: 352px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #787A8D;
-}
-.sub_form{
-    margin-top: 40px;
-}
-.sub_form button{
-    background: #F5C249;
-    border-radius: 12px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    border: none;
-    color: #16171D;
-    padding: 16px 34.5px;
-    margin-left: 66.5px;
-}
-.subscribe_img img {
-	position: relative;
-	top: -200px;
 }
 /* ---------- footer Area Css Here ----------  */
 #footer_area{
@@ -899,8 +725,24 @@ border: none;
 /* =========================================================
 ============ Media Query Css Here======================
 ========================================================= */
+    /* new added css start */
+/* --------Only for media device  -----*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner_area {
+	height: 70vh;
+    }
+    .banner_content h1 {
+	font-size: 36px;
+    }
+    .tr_to_tr_grep {
+	position: relative;
+    }
+}
 /* --------Only for small device  -----*/
 @media (max-width: 767.98px) { 
+    #banner_area {
+	height: 650px;
+    }
     i.fa.fa-bars.navbar-toggler-icon {
         color: #fff;
         outline: none;
@@ -921,6 +763,9 @@ border: none;
     text-align: center;
     left: 0;
     }
+    .banner_img img {
+	width: 65%;
+    }
     .banner_content {
     position: absolute;
     top: 65%;
@@ -929,15 +774,11 @@ border: none;
     .banner_content h1 {
     font-size: 38px;
     }
-    .service_card {
-    margin-bottom: 12px;
+    .market_trend_search_box {
+	width: 290px;
     }
-    .trading_content {
-    position: relative;
-    text-align: center;
-    }
-    #treding_area {
-    padding: 20px 0px;
+    .tr_to_tr_grep {
+	position: relative;;
     }
     .table_header th:nth-child(2){
         display: none;
@@ -960,12 +801,24 @@ border: none;
     .tr_to_tr_grep td:nth-child(4){
         display: none;
     }
-    .pagination ul li {
-    width: 40px;
-    height: 40px;
+    .tr_to_tr_grep td:nth-child(2) {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
     }
-    #news_area {
-    padding: 40px 0px;
+    .tr_to_tr_grep td:nth-child(3) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .pagination ul li {
+	width: 35px;
+	height: 35px;
+    }
+    .page-number a {
+	line-height: 35px;
     }
     .app_content {
     position: relative;
@@ -975,16 +828,5 @@ border: none;
     font-size: 28px;
     line-height: 42px;
     }
-    .subscribe_area {
-    padding: 84px 0px;
-    height: auto;
-    }
-    .subscribe_content {
-    position: relative;
-    top: 35%;
-    }
-    .subscribe_img img {
-    position: relative;
-    top: 0px;
-    }
 }
+
